@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: yoke-serviceregistry
+server:
+  port: 8580
+
+eureka:
+  client:
+    erviceUrl:
+      defaultZone: http://localhost:8580/
+      
+    register-with-eureka: false
+    fetch-registry: false
