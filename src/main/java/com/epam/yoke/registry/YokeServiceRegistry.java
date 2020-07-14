@@ -1,4 +1,4 @@
-package com.epam.yoke.config;
+package com.epam.yoke.registry;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
